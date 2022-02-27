@@ -1,7 +1,7 @@
 # DocumentProcessUsingMapReduce
 [EN]
 
-This is an Java algorithm that evaluates the rang, maximum lenght of a word and it's number of appearances. The rang of a word is the lenght + 1 number of fibonacci's string multiply by the number of appearces of that lenght devided by the total number of words. The rang of the file is the sum of all word rangs.
+This is an Java algorithm that evaluates the rang, maximum lenght of a word and it's number of appearances of a file. The rang of a word is the lenght + 1 number of fibonacci's string multiply by the number of appearces of that lenght devided by the total number of words. The rang of the file is the sum of all word rangs.
 This algorithm uses a map reduce model. Map threads finds the words' lenght and number of appearances and add the data into a map. Reduce threads finds the rang and max word for each file.
 
 [RO]
